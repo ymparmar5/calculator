@@ -13,13 +13,14 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 375px;
+    height: 500px;
 }
 
 #main {
-    width: 90%; /* Changed to percentage to adapt to smaller screens */
-    max-width: 350px; /* Maximum width to keep it consistent on larger screens */
-    height: 500px;
-    margin: 6rem auto; /* Reduced margin for smaller screens */
+    width: 90%; 
+    height: 475px;
+    margin: 1rem auto; /* Reduced margin for smaller screens */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +106,7 @@ button:active {
 }
 
 /* Media Query for 360px devices */
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     #main {
         width: 100%;
         margin: 4rem auto; /* Further reduced margin */
